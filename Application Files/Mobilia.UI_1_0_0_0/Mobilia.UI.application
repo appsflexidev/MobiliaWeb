@@ -8,7 +8,6 @@
         <beforeApplicationStartup />
       </update>
     </subscription>
-    <deploymentProvider codebase="https://appsflexidev.github.io/MobiliaWeb/Mobilia.UI.application" />
   </deployment>
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
     <framework targetVersion="4.6.2" profile="Full" supportedRuntime="4.0.30319" />
