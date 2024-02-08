@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="Mobilia.UI.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
-  <description asmv2:iconFile="Icon.ico" asmv2:publisher="MySolutions" co.v1:suiteName="Admin Pack" asmv2:product="Mobilia" asmv2:supportUrl="http://residenza.azurewebsites.net/mobilia/" co.v1:errorReportUrl="http://residenza.azurewebsites.net/mobilia/" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <asmv1:assemblyIdentity name="Mobilia.UI.exe" version="1.0.0.0" publicKeyToken="449e4154de863222" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Icon.ico" asmv2:publisher="FlexiDev" co.v1:suiteName="AppsFlexiDev" asmv2:product="Mobilia" asmv2:supportUrl="https://appsflexidev.github.io/MobiliaWeb/" co.v1:errorReportUrl="https://appsflexidev.github.io/MobiliaWeb/" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Mobilia.UI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -1280,14 +1280,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Mobilia.UI.exe" size="687616">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Mobilia.UI.exe" size="688560">
       <assemblyIdentity name="Mobilia.UI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Wf64dWq0fe9OoX9cEtlZpa9sz0oKxmSc24VgxPmL5Bg=</dsig:DigestValue>
+        <dsig:DigestValue>q8H4CoqNgKPcoGKGP7IsEkmSl/iMGsh5aSGGVoaKSBg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -2749,4 +2749,4 @@
       <dsig:DigestValue>9VV8lrUvjA8dN0wSu2KYG9g0LyJOVq6GiKQZcxw3QXM=</dsig:DigestValue>
     </hash>
   </file>
-</asmv1:assembly>
+<publisherIdentity name="CN=TRABAJO\neo1a" issuerKeyHash="832c4ed2f0a3b351dee951c2cc51be0b7eff8a17" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VUco4e2AiXoaRXZ+XB61ys5l2x6ZQrmj0W0iiYpwsk4=</DigestValue></Reference></SignedInfo><SignatureValue>wGBFZDegKa0zBnSVclSzVFWvZ2M3HyqQZ0ZMY0LD3U3AiDnsW4lZWThtOC1TlZ31ngLxRt3k7dC1agSb9CXCTvF8bIMrVANIvSevYqVT4FVDT4jQE0sx1KNHn0cvWZ030YWjkZ4IKB5hVcJU+zqwOLqblm6Xl7aHRxA51qhiIhg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3Gtc9dcX1PGro9oBoqRwile4jSJzYUMmYrvZdivJKXvDYWIyKXs02hO/0OIE4UqM5rD66R5WzCUMqiAN+XgLPLLZV1VSbhPbVuD96n/UQbehQPBj2XP/2WmZy/dv3bJvjU5qLHLS6HO3QdiFldV0YaUX2SEMJD1GmRGPQMd9QY0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4eb2708a89226dd1a3b942991edb65cecab51e5c7e76451a7a8980ede1284755" Description="" Url=""><as:assemblyIdentity name="Mobilia.UI.exe" version="1.0.0.0" publicKeyToken="449e4154de863222" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=TRABAJO\neo1a</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YsIfEE8OZ7gDwHxXh+iVdOTH6ccYI+5TDFnfuaKjDtk=</DigestValue></Reference></SignedInfo><SignatureValue>NKLMgLNCAFxT/V8KqSG8C7Nm2jZfC2ez9HYpUod7aMu4gE3P1W+kyAHiuqMZug2cFJxLsJ+b80QMHLpEKGFK3ImfvGAJTzp4Y/yxNuVQsz2jSjbvUfkHACQfkX/fxXn9DEZzAzgpHX9T3gvHGtVI0GU3fnPL4yYK9wdb3JeAqns=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3Gtc9dcX1PGro9oBoqRwile4jSJzYUMmYrvZdivJKXvDYWIyKXs02hO/0OIE4UqM5rD66R5WzCUMqiAN+XgLPLLZV1VSbhPbVuD96n/UQbehQPBj2XP/2WmZy/dv3bJvjU5qLHLS6HO3QdiFldV0YaUX2SEMJD1GmRGPQMd9QY0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQb5gPbjcN7rRJPxpzJL32FjANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAVABSAEEAQgBBAEoATwBcAG4AZQBvADEAYTAeFw0yNDAyMDgxOTAyNDFaFw0yNTAyMDgwMTAyNDFaMCUxIzAhBgNVBAMeGgBUAFIAQQBCAEEASgBPAFwAbgBlAG8AMQBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDca1z11xfU8auj2gGipHCKV7iNInNhQyZiu9l2K8kpe8NhYjIpezTaE7/Q4gThSozmsPrpHlbMJQyqIA35eAs8stlXVVJuE9tW4P3qf9RBt6FA8GPZc//ZaZnL92/dsm+NTmosctLoc7dB2IWV1XRhpRfZIQwkPUaZEY9Ax31BjQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAL1TCUkSGGTXbGHcEeNk+pOhKRZiXUhzP6YYF0+v31uajHSvR5nTvlARF7G+ZO+wWHkY0kjJLna0Ugodoi0YPcBu4e7abC2PxG8yDR3/f36PKQUSKqy9+GX18mRyraHVMSSDLJHbd+uHNmRkLOkjH4/c9a/93Yh0snNl7IdP722S</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
